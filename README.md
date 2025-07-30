@@ -29,20 +29,23 @@ Also, Ansible was integrated into our CI/CD pipeline using Jenkins. After every 
 This helped reduce manual errors and saved a lot of time during deployments.
 
 2. What is YAML and Why is it used in Ansible?
+
 YAML stands for “YAML Ain’t Markup Language.” It’s a human-readable data serialization format, and it's used in Ansible to write playbooks, inventory files, and variable files.
 Ansible uses YAML because it's:
 Easy to read and write — even for people who aren’t developers.
 Structured with indentation, which makes the flow of tasks clear.
 Supports complex data types like dictionaries (key-value pairs) and lists, which is helpful when defining variables, tasks, and roles.
 
-3. What is an Inventory file?
+4. What is an Inventory file?
+   
 An inventory file in Ansible is a file that lists the managed hosts or servers where tasks will be executed. It defines the target machines and can group them logically—for example, webservers, dbservers, or dev, prod, etc.
 There are two main types of inventory:
 Static Inventory – A simple .ini or .yaml file where you manually list IPs or hostnames.
 Dynamic Inventory – Used in cloud environments like AWS or Azure, where the inventory is pulled in real-time using plugins or scripts. For example, we used the AWS EC2 dynamic inventory plugin to pull instance details based on tags.
 
 4.what are ansible facts how do you use them?
-system properties gathered from hosts. They help in conditional logic in playbooks. E.g., using ansible_os_family to decide package managers.
+
+Ansible facts are system properties gathered from hosts. They help in conditional logic in playbooks. E.g., using ansible_os_family to decide package managers.
 These facts include details like:
 IP address
 OS type and version
