@@ -21,11 +21,12 @@ Based on project requirement we are going to create S3 buckets and we provide ac
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ansible 
 1.Do you have exposure in Ansible? How you used in your project?
-•	Yes, I have hands-on experience with Ansible in my project for automating configuration management and application deployments.
-•	In my  project I used Ansible mainly to automate repetitive tasks on Linux servers. For example, I created Ansible playbooks to:
-•	Install packages like httpd, nginx, or custom monitoring agents across multiple servers.
-•	Also, Ansible was integrated into our CI/CD pipeline using Jenkins. After every code push, Jenkins would trigger an Ansible playbook to deploy the updated code or restart services in dev or UAT environments.
-•	This helped reduce manual errors and saved a lot of time during deployments.
+
+Yes, I have hands-on experience with Ansible in my project for automating configuration management and application deployments.
+In my  project I used Ansible mainly to automate repetitive tasks on Linux servers. For example, I created Ansible playbooks to:
+Install packages like httpd, nginx, or custom monitoring agents across multiple servers.
+Also, Ansible was integrated into our CI/CD pipeline using Jenkins. After every code push, Jenkins would trigger an Ansible playbook to deploy the updated code or restart services in dev or UAT environments.
+This helped reduce manual errors and saved a lot of time during deployments.
 
 2. What is YAML and Why is it used in Ansible?
 YAML stands for “YAML Ain’t Markup Language.” It’s a human-readable data serialization format, and it's used in Ansible to write playbooks, inventory files, and variable files.
