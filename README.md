@@ -1,4 +1,8 @@
-Hi, my name is Vengala Rao Rangisetty. I'm currently based in Hyderabad, and I completed my graduation in 2021 from Sri Mittapalli College of Engineering. After graduation I have placed in Mphasis as a fresher and I have around 4 years of experience in IT, as a DevOps Engineer. During this period, I mainly work on setting up CI/CD pipelines using Jenkins and Shell scripting to automate code build, test, and deployment processes. I also manage cloud infrastructure using AWS services like EC2, S3, IAM, and VPC through CloudFormation.
+Hi, my name is Vengala Rao Rangisetty. I'm currently based in Hyderabad, and I completed my graduation in 2021 from Sri Mittapalli College of Engineering. After graduation I have placed in Mphasis as a fresher and I have around 4 years of experience in IT, as a DevOps Engineer. 
+
+During this period, I mainly work on setting up CI/CD pipelines using Jenkins and Shell scripting to automate code build, test, and deployment processes. I also manage cloud infrastructure using AWS services like EC2, S3, IAM, and VPC through CloudFormation.
+
+For containerization, I’ve used Docker to package applications and deployed them on Kubernetes clusters, specifically using Amazon EKS, focusing on high availability and auto-scaling.
 
 I also handle batch job scheduling with Control-M and cronjobs, and set up monitoring tools like CloudWatch, Splunk to track system health and performance.
 
