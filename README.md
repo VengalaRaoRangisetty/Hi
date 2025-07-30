@@ -17,3 +17,40 @@ and whenever we are launching some EC2 instances as a best practice we are going
 When user left disabling user also part of our day-to-day responsibility.
 
 Based on project requirement we are going to create S3 buckets and we provide access to the required servers and some buckets we are going to asked to create life cycle management role when we asked, we are going to apply those things on the S3 buckets
+
+
+Ansible --
+Do you have exposure in Ansible? How you used in your project?
+
+2. What is YAML and Why is it used in Ansible?
+3. What is an Inventory file?
+4.what are ansible facts how do you use them?
+
+5. Write a playbook for installing nginx server?
+
+Linux ---
+
+1. what command would you use to check disk usage in a Linux server. (df -h)
+
+2. How do you check CPU and memory usage in Linux?  -- (Top,htop, vmstat, free-h)
+
+3. can you name the command to find the hidden files in Linux server --   ls -a
+
+4. How do you check system logs in Linux? where are they stored?  -- (stored cat/var/log/syslog, To
+
+5. How you give permission to a file and could you name the commannd? chmod 755
+
+SQL --
+.explain  DDL and DML commands ?
+.what are indexes? 
+.How would you find the second highest salary table from a employe table?
+
+Jenkins--
+How you schedule  job in jenkins?
+Explain CI CD in jenkins?
+
+Docker --
+ what is docker?
+diff between Cmd and entryvpoint --
+CMD -- we can pass arguments 
+Entrypoint -- we pass commands that are excutable
