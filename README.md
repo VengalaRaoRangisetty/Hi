@@ -117,11 +117,17 @@ LIMIT 1 OFFSET 1;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Jenkins--
 1.How you schedule job in Jenkins?
+
 In Jenkins, we schedule jobs using the “Build periodically” option with a CRON syntax
+
 Schedule	CRON Format	      Meaning
+
 Every 15 mins	 H/15 * * * *	    Runs every 15 minutes
+
 Every day at 2 AM	 0 2 * * *	    Runs daily at 2 AM
+
 Every Sunday at 1 AM	   0 1 * * 0	     Weekly on Sunday
+
 Every weekday at 6 PM	   0 18 * * 1-5	      Mon–Fri at 6 PM
 
 2.Explain CI CD in Jenkins?
