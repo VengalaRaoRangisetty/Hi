@@ -70,16 +70,20 @@ Linux ---
 1.	what command would you use to check disk usage in a Linux server. 
 (df -h)
 2.	How do you check CPU and memory usage in Linux?  -- (Top, htop, vmstat, free-h)
+   
 •	vmstat reports information about processes, memory, paging, block IO, traps, and cpu activity.
 •	The top command in Linux displays real-time information about system processes and resource usage. It is commonly used to monitor CPU and memory usage, process states, and system load.
 •	The free command in Linux displays the amount of free and used memory in the system. It displays the total amount of free and used physical and swap memory along with the buffer used by the kernel.
 
 4. can you name the command to find the hidden files in Linux server --   ls -a
-5. How do you check system logs in Linux? where are they stored?  -- (stored cat/var/log/syslog, To
-6. How you give permission to a file and could you name the command? chmod 755
+   
+6. How do you check system logs in Linux? where are they stored?  -- (stored cat/var/log/syslog, To
+   
+8. How you give permission to a file and could you name the command? chmod 755
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SQL --
 1.explain DDL and DML commands?
+
 DDL commands are used to define and manage database structure, like tables, schemas, indexes, etc.
 
 CREATE - Creates a new table, view, or database
@@ -87,16 +91,20 @@ ALTER - Modifies an existing table (e.g., add/remove columns)
 DROP - Deletes a table or database permanently
 TRUNCATE - Removes all data from a table but keeps the structure
 
-DML commands are used to manipulate the data inside tables (insert, update, delete, retrieve).
+DML commands are used to manipulate the data inside tables (insert, update, delete, retrieve)
+
 SELECT – Retrieves data (though technically part of DQL, often grouped with DML)
 INSERT - Adds new data into a table
 UPDATE - Modifies existing data
 DELETE - Removes data from a table
 
 2.what are indexes? 
+
 it helps the database find rows faster without scanning the entire table. Speed up data retrieval on columns.
 
 3.How would you find the second highest salary table from a employee table?
+
+
 SELECT MAX(salary) AS SecondHighestSalary
 FROM employees
 WHERE salary < ( SELECT MAX(salary) FROM employees);
@@ -105,6 +113,7 @@ SELECT DISTINCT salary
 FROM employees
 ORDER BY salary DESC
 LIMIT 1 OFFSET 1;
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Jenkins--
 1.How you schedule job in Jenkins?
@@ -119,12 +128,15 @@ Every weekday at 6 PM	   0 18 * * 1-5	      Mon–Fri at 6 PM
 
 CI/CD in Jenkins means automating the process of building, testing, and deploying code. CI (Continuous Integration) is when Jenkins automatically pulls the latest code from Git, builds it, and runs tests whenever a developer pushes changes. CD (Continuous Delivery or Deployment) is when, after successful testing, Jenkins automatically deploys the application to environments like Dev, UAT, or Production. This helps reduce manual work and errors. 
 In my project, I used Jenkins to set up CI/CD pipelines that build the code using Maven, run test cases, and deploy the application using Ansible. This made our releases faster and more reliable.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Docker --
  1.what is docker?
+ 
 Docker is an open-source platform designed to streamline the process of building, deploying, and running applications using containers.
 
  2.diff between Cmd and entry point 
+ 
 CMD defines the default command or arguments that will be executed when a container starts. It provides a default behavior that can be easily overridden.
 ENTRYPOINT defines the primary executable that will always run when a container starts. It sets a fixed command that is not typically overridden at runtime.
 
